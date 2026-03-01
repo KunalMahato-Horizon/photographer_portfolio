@@ -1,0 +1,49 @@
+/* GLOBAL BACKGROUND: Grey Gradient + Texture */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e5e5e5;
+  background-image: 
+    linear-gradient(to bottom, #e5e5e5, #1f1f1f),
+    url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+  background-repeat: repeat;
+  background-size: auto, auto;
+  background-attachment: fixed;
+  color: #111;
+  scroll-behavior: smooth;
+  transition: background 0.5s ease;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Transparent Glass Header */
+.App-header {
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #222;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  margin: 2rem;
+}
+
+/* Link Style */
+.App-link {
+  color: #0d6efd;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.App-link:hover {
+  color: #084298;
+}
