@@ -8,7 +8,7 @@ import HeroGrid from "./hero-layouts/HeroGrid";
 import Dynamic from "./hero-layouts/Dynamic";
 
 // Change this to switch hero layout: "vertical", "tilted", "unsymmetric", "grid"
-const selectedHero = "tilted";
+const selectedHero = "dynamic";
 
 const Hero = () => {
   switch (selectedHero) {

@@ -15,7 +15,7 @@ const heroImages = [
 const HeroUnsymmetric = () => {
   const containerRef = useRef(null);
   const isInView = useInView(containerRef, { once: true, margin: "-20%" });
-  const [hoveredImage, setHoveredImage] = useState(null);
+  const [ setHoveredImage] = useState(null);
 
   return (
     <section

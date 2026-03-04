@@ -18,7 +18,7 @@ const HeroGrid = () => {
   const isInView = useInView(containerRef, { once: true, margin: "-20%" });
   const yText = useTransform(scrollY, [0, 300], [0, 50]);
   
-  const [hoveredImage, setHoveredImage] = useState(null);
+  const [ setHoveredImage] = useState(null);
 
   return (
     <section
